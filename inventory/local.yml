@@ -1,0 +1,8 @@
+---
+all:
+  hosts:
+    local:
+      ansible_connection: local
+      ansible_host: localhost
+      # `ansible-playbook` を走らせている Python インタプリタをコマンドの実行にも使用する
+      ansible_python_interpreter: '{{ ansible_playbook_python }}'

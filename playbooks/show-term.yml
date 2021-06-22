@@ -1,0 +1,6 @@
+# インベントリファイルやコマンドラインオプションで指定されたホストでプレイブックを実行する
+- hosts: all
+  gather_facts: no
+  tasks:
+    - ansible.builtin.command:
+        cmd: echo $TERM

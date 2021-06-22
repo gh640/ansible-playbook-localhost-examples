@@ -1,0 +1,7 @@
+# サンプル: プレイブック全体を localhost で実行する
+- hosts: localhost
+  gather_facts: no
+  connection: local
+  tasks:
+    - ansible.builtin.command:
+        cmd: echo $TERM
