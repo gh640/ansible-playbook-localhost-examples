@@ -6,7 +6,7 @@ authors = ["Goto Hayato <habita.gh@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-ansible = "^4.1.0"
+ansible = "^7.0.0"
 
 [tool.poetry.dev-dependencies]
 
