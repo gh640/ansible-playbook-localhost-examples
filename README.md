@@ -2,9 +2,9 @@
 
 (Japanese) `ansible-playbook` のタスクを localhost で実行するサンプルです。
 
-## 必須条件
+## 前提条件
 
-- Python 3.9
+- Python 3.11
 - Poetry 1.x
 - Ansible 7.x
 
@@ -15,7 +15,7 @@
 - 方法 C) プレイブックで指定する
 - 方法 D) タスクで指定する
 
-以下のコマンドではすべて事前に `poetry shell` を実行してある前提です。
+以下のコマンドではすべて事前に `poetry shell` を実行してある前提となっています。
 
 ```bash
 poetry shell
